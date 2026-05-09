@@ -45,7 +45,7 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
           className="flex flex-col items-center min-w-[90px] sm:min-w-[130px] relative group"
         >
           {/* Glass background arch */}
-          <div className="absolute inset-0 bg-brand-emerald-deep/40 backdrop-blur-md border border-brand-emerald-light/40 shadow-[0_15px_30px_rgba(0,0,0,0.2)] rounded-[3rem_3rem_1rem_1rem] sm:rounded-[4rem_4rem_1.5rem_1.5rem] group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] transition-all duration-700 ease-out group-hover:-translate-y-3 pointer-events-none" />
+          <div className="absolute inset-0 bg-brand-primary-deep/40 backdrop-blur-md border border-brand-primary-light/40 shadow-[0_15px_30px_rgba(0,0,0,0.2)] rounded-[3rem_3rem_1rem_1rem] sm:rounded-[4rem_4rem_1.5rem_1.5rem] group-hover:shadow-[0_20px_40px_rgba(0,0,0,0.4)] transition-all duration-700 ease-out group-hover:-translate-y-3 pointer-events-none" />
 
           <div className="relative pt-10 pb-8 px-4 flex flex-col items-center w-full z-10 transition-transform duration-700 group-hover:-translate-y-3">
             {/* Elegant number */}
@@ -53,9 +53,9 @@ export const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
               {String(item.value).padStart(2, '0')}
             </span>
             {/* Divider line */}
-            <div className="w-10 h-[1.5px] bg-gradient-to-r from-transparent via-brand-emerald-light/50 to-transparent mb-4" />
+            <div className="w-10 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary-light/50 to-transparent mb-4" />
             {/* Label */}
-            <span className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-emerald-100/90 font-semibold">{item.label}</span>
+            <span className="text-[10px] sm:text-xs uppercase tracking-[0.4em] text-blue-100/90 font-semibold">{item.label}</span>
           </div>
         </motion.div>
       ))}

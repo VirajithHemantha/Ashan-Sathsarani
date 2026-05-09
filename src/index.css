@@ -10,17 +10,17 @@
   --color-brand-gold-light: #F9E27D;
   --color-brand-gold-deep: #B8860B;
   
-  --color-brand-emerald: #065F46; /* Emerald 800 */
-  --color-brand-emerald-light: #10B981; /* Emerald 500 */
-  --color-brand-emerald-deep: #064E3B; /* Emerald 900 */
-  --color-brand-emerald-muted: #34D399; /* Emerald 400 */
+  --color-brand-primary: #967BB6; /* Lavender Purple */
+  --color-brand-primary-light: #E6E6FA; /* Lavender Mist */
+  --color-brand-primary-deep: #674C8A; /* Deep Lavender */
+  --color-brand-primary-muted: #B57EDC; /* Lavender Floral */
   
-  --color-brand-champagne: #F0FDF4; /* Light Mint */
-  --color-brand-ivory: #F8FAF7; /* Soft Green-Ivory */
-  --color-brand-pink: #991B1B; /* Changed to Deep Red for petals/accents */
+  --color-brand-champagne: #F3E5F5; /* Light Lavender Blush */
+  --color-brand-ivory: #F8F4F9; /* Soft Lavender Ivory */
+  --color-brand-pink: #DDA0DD; /* Plum Accent */
   --color-brand-white: #FAFAFA;
-  --color-brand-accent: #059669; /* Emerald 600 */
-  --color-brand-dark: #064E3B;
+  --color-brand-accent: #D8BFD8; /* Thistle */
+  --color-brand-dark: #4B0082; /* Indigo / Dark Lavender */
 }
 
 @layer base {
@@ -58,10 +58,10 @@
 }
 
 .wax-seal {
-  background: radial-gradient(circle at 30% 30%, #10B981, #059669, #064E3B);
+  background: radial-gradient(circle at 30% 30%, #967BB6, #B57EDC, #4B0082);
   box-shadow:
-    0 8px 25px rgba(6, 78, 59, 0.4),
-    inset -3px -3px 8px rgba(6, 78, 59, 0.3),
+    0 8px 25px rgba(75, 0, 130, 0.4),
+    inset -3px -3px 8px rgba(75, 0, 130, 0.3),
     inset 3px 3px 8px rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
@@ -82,10 +82,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-brand-emerald-muted);
+  background: var(--color-brand-primary-muted);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-brand-emerald);
+  background: var(--color-brand-primary);
 }

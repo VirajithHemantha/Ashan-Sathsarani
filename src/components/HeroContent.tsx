@@ -10,8 +10,8 @@ export const HeroContent: React.FC = () => {
       {/* Background Image with Elegant Overlays */}
       <div className="absolute inset-0 z-0 bg-brand-ivory">
         <div className="absolute inset-0 bg-brand-ivory/70 backdrop-blur-[2px]" />
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-emerald/10 via-transparent to-brand-emerald/5" />
-        <div className="absolute inset-0 bg-brand-emerald/5 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/10 via-transparent to-brand-primary/5" />
+        <div className="absolute inset-0 bg-brand-primary/5 mix-blend-multiply" />
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
@@ -24,40 +24,40 @@ export const HeroContent: React.FC = () => {
         >
           {/* Subtle top decoration */}
           <div className="flex items-center gap-3 mb-8">
-            <div className="h-[1px] w-12 sm:w-20 bg-gradient-to-l from-brand-emerald/60 to-transparent" />
+            <div className="h-[1px] w-12 sm:w-20 bg-gradient-to-l from-brand-primary/60 to-transparent" />
             <Heart className="w-5 h-5 text-brand-pink fill-brand-pink/40 drop-shadow-sm" />
-            <div className="h-[1px] w-12 sm:w-20 bg-gradient-to-r from-brand-emerald/60 to-transparent" />
+            <div className="h-[1px] w-12 sm:w-20 bg-gradient-to-r from-brand-primary/60 to-transparent" />
           </div>
 
-          <span className="text-brand-emerald uppercase tracking-[0.6em] text-xs sm:text-sm font-medium mb-10 block drop-shadow-sm font-sans">
+          <span className="text-brand-primary uppercase tracking-[0.6em] text-xs sm:text-sm font-medium mb-10 block drop-shadow-sm font-sans">
             The Celebration of Love
           </span>
 
           <div className="relative mb-12 w-full flex justify-center">
             <h1 className="relative text-6xl sm:text-8xl lg:text-9xl font-display text-stone-800 leading-tight drop-shadow-sm">
-              Gagani <br className="sm:hidden" />
-              <span className="text-brand-emerald-light italic font-light mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>
+              Hasintha <br className="sm:hidden" />
+              <span className="text-brand-primary-light italic font-light mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>
               <br className="sm:hidden" />
-              Ridma
+              Sithara
             </h1>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-r from-transparent to-brand-emerald/40" />
+            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-r from-transparent to-brand-primary/40" />
             <p className="text-xl sm:text-3xl font-serif italic text-stone-700 tracking-wide px-4 text-center max-w-2xl leading-relaxed">
               Together with our families, we joyfully invite you to join us
             </p>
-            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-emerald/40" />
+            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-primary/40" />
           </div>
 
           {/* Enhanced Date pill with premium glass effect */}
           <div className="inline-block relative group">
-            <div className="absolute -inset-1 bg-gradient-to-r from-brand-emerald/40 via-brand-emerald-light/40 to-brand-emerald/40 rounded-full blur-[8px] opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-300 transform group-hover:scale-105" />
-            <div className="relative px-8 sm:px-16 py-4 sm:py-6 bg-white/70 backdrop-blur-lg border border-brand-emerald/50 rounded-full shadow-[0_8px_30px_rgba(6,78,59,0.1)] flex items-center justify-center">
-              <span className="relative text-2xl sm:text-4xl font-serif text-brand-emerald tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-4">
-                <Sparkles className="w-4 h-4 text-brand-emerald-light" />
-                20 . 08 . 2026
-                <Sparkles className="w-4 h-4 text-brand-emerald-light" />
+            <div className="absolute -inset-1 bg-gradient-to-r from-brand-primary/40 via-brand-primary-light/40 to-brand-primary/40 rounded-full blur-[8px] opacity-70 group-hover:opacity-100 transition duration-1000 group-hover:duration-300 transform group-hover:scale-105" />
+            <div className="relative px-8 sm:px-16 py-4 sm:py-6 bg-white/70 backdrop-blur-lg border border-brand-primary/50 rounded-full shadow-[0_8px_30px_rgba(70,130,180,0.1)] flex items-center justify-center">
+              <span className="relative text-2xl sm:text-4xl font-serif text-brand-primary tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-4">
+                <Sparkles className="w-4 h-4 text-brand-primary-light" />
+                27 . 07 . 2026
+                <Sparkles className="w-4 h-4 text-brand-primary-light" />
               </span>
             </div>
           </div>

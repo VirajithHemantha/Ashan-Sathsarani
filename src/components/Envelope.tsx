@@ -79,9 +79,9 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                 </div>
 
                 <h2 className="text-3xl sm:text-5xl font-display font-medium text-[#4a5770] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
-                  Gagani <br />
+                  Hasintha <br />
                   <span className="text-xl sm:text-3xl text-[#d4af37] italic font-light my-1 block">&</span>
-                  Ridma
+                  Sithara
                 </h2>
 
                 <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-[#d4af37] to-transparent mx-auto my-3 sm:my-5" />
@@ -90,7 +90,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   Request the honor of your presence
                 </p>
                 <p className="text-base sm:text-2xl font-serif text-[#4a5770] tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
-                  15 • 10 • 2026
+                  27 • 07 • 2026
                 </p>
               </motion.div>
 
@@ -188,8 +188,8 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                     exit: { duration: 0.5, ease: "easeIn" }
                   }}
                 >
-                  {/* Wax base with emerald realism */}
-                  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-brand-emerald-muted via-brand-emerald to-brand-emerald-deep border border-brand-emerald-deep shadow-[inset_0_4px_10px_rgba(16,185,129,0.8),inset_0_-4px_15px_rgba(6,78,59,0.9)]" />
+                  {/* Wax base with steel blue realism */}
+                  <div className="absolute inset-0 rounded-full bg-gradient-to-br from-brand-primary-muted via-brand-primary to-brand-primary-deep border border-brand-primary-deep shadow-[inset_0_4px_10px_rgba(70,130,180,0.8),inset_0_-4px_15px_rgba(29,53,87,0.9)]" />
 
                   {/* Wax ridge ring - Gold infused edge */}
                   <div className="absolute inset-2 sm:inset-3 rounded-full border-[3px] border-[#d4af37]/60 shadow-[inset_0_2px_5px_rgba(50,0,10,0.8),0_2px_4px_rgba(212,175,55,0.4)] mix-blend-screen" />
@@ -199,13 +199,13 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
 
                   <div className="relative flex flex-col items-center justify-center translate-y-[-2px]">
                     <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      G
+                      H
                     </span>
                     <span className="text-[#d4af37]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)] my-[-6px]">
                       &
                     </span>
                     <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
-                      R
+                      S
                     </span>
                   </div>
 
