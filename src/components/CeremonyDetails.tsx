@@ -58,6 +58,17 @@ export const CeremonyDetails: React.FC = () => {
                 </div>
               </div>
 
+              {/* Poruwa Ceremony */}
+              <div className="relative group">
+                <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-primary/30 shadow-lg flex items-center justify-center group-hover:border-brand-primary group-hover:shadow-[0_4px_15px_rgba(70,130,180,0.3)] transition-all duration-500">
+                  <Heart className="w-5 h-5 text-brand-pink group-hover:scale-110 transition-transform duration-500" />
+                </div>
+                <div>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">10:24 AM</h4>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Poruwa Ceremony</p>
+                </div>
+              </div>
+
               {/* Location */}
               <div className="relative group">
                 <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-primary/30 shadow-lg flex items-center justify-center group-hover:border-brand-primary group-hover:shadow-[0_4px_15px_rgba(70,130,180,0.3)] transition-all duration-500">
