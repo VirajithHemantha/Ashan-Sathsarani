@@ -87,6 +87,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
               className="w-full h-full object-cover"
               playsInline
               autoPlay
+              muted
               preload="auto"
               onEnded={onComplete}
               onError={(e) => {
@@ -94,10 +95,20 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
                 setTimeout(onComplete, 1000);
               }}
             >
-              <source src="/Video Project 7.mp4" type="video/mp4" />
+              <source src="/intro_video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             
+            {/* Skip Button for safety */}
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 2 }}
+              onClick={onComplete}
+              className="absolute bottom-10 right-10 z-[210] px-6 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white/70 text-[10px] uppercase tracking-widest hover:bg-white/20 transition-colors"
+            >
+              Skip Intro
+            </motion.button>
             
             <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/60 via-transparent to-black/40" />
           </motion.div>
