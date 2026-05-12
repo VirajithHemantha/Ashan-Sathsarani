@@ -9,7 +9,6 @@ import { CoupleDetails } from './components/CoupleDetails';
 // Removed Timeline import
 import { Gallery } from './components/Gallery';
 import { Location } from './components/Location';
-import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
 import { Guestbook } from './components/Guestbook';
@@ -134,11 +133,7 @@ export default function App() {
               <Location />
             </section>
 
-            <section id="rsvp" className="py-16 sm:py-32 bg-brand-ivory relative overflow-hidden">
-              <CornerFlowers position="top-right" opacity={0.6} scale={1.6} />
-              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] opacity-20 pointer-events-none" />
-              <RSVPForm />
-            </section>
+
 
             <section id="wishes" className="py-16 sm:py-32 bg-brand-champagne/20 relative overflow-hidden">
               <Guestbook />
