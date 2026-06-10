@@ -21,7 +21,7 @@ export const CoupleDetails: React.FC = () => {
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-primary/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm">
-            Hasintha <span className="italic text-brand-primary font-light mx-2">&</span> Sithara
+            Ashan <span className="italic text-brand-primary font-light mx-2">&</span> Sathsarani
           </h2>
         </motion.div>
       </div>
@@ -37,8 +37,8 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-end">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Groom</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Hasintha</h3>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Mr. A.P. Ranjith Amarasingha & Mrs. Dammika Amarasingha</p>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Ashan</h3>
+            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Son of Mr. Dapana Durage Asela & Mrs. M.W Amila Prashanthi</p>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
             <Heart className="w-6 h-6 text-brand-pink/80 fill-brand-pink/30 transform hover:scale-110 transition-transform cursor-pointer drop-shadow-sm" />
@@ -58,7 +58,7 @@ export const CoupleDetails: React.FC = () => {
 
           <div className="relative w-[300px] h-[400px] sm:w-[360px] sm:h-[500px] lg:w-[420px] lg:h-[580px] rounded-[12rem_12rem_16px_16px] overflow-hidden border-[6px] border-white/90 shadow-[0_20px_50px_rgba(70,130,180,0.2)] bg-brand-champagne mx-auto z-10 transition-transform duration-700 group-hover:-translate-y-2">
             <img
-              src="/pre/FB_IMG_1777906634562.jpg.jpeg"
+              src="/pre/WhatsApp Image 2026-06-10 at 14.47.53 (1).jpeg"
               alt="The Couple"
               className="w-full h-full object-cover"
             />
@@ -87,8 +87,8 @@ export const CoupleDetails: React.FC = () => {
         >
           <div className="mb-4 flex flex-col items-center lg:items-start">
             <span className="text-brand-primary uppercase tracking-[0.4em] text-[10px] font-bold mb-3 block">The Bride</span>
-            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Sithara</h3>
-            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Daughter of Mr. K.D. Nimal karunathilaka & Mrs. W.A. Jayawathi</p>
+            <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm">Sathsarani</h3>
+            <p className="text-stone-500/90 font-serif italic text-base sm:text-lg">Daughter of Mr. Shiron Ranga thenabadu & Mrs. M.M Madusha Jeewani</p>
           </div>
           <div className="hidden lg:flex justify-start mt-8">
             <Heart className="w-6 h-6 text-brand-pink/80 fill-brand-pink/30 transform hover:scale-110 transition-transform cursor-pointer drop-shadow-sm" />

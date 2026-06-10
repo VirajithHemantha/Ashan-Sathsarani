@@ -22,7 +22,7 @@ export const Footer: React.FC = () => {
             <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
             <text>
               <textPath href="#circlePath" className="text-[9.5px] uppercase tracking-[0.2em] fill-brand-primary font-sans font-bold">
-                HASINTHA & SITHARA • FOREVER AND ALWAYS •
+                ASHAN & SATHSARANI • FOREVER AND ALWAYS •
               </textPath>
             </text>
           </svg>
@@ -30,14 +30,14 @@ export const Footer: React.FC = () => {
           {/* Central Logo Disk */}
           <div className="absolute inset-[3rem] bg-white rounded-full shadow-[0_10px_30px_rgba(70,130,180,0.1)] flex flex-col items-center justify-center border-[4px] sm:border-[5px] border-brand-primary/30 group-hover:scale-110 group-hover:border-brand-primary/50 transition-all duration-700 ease-out z-10">
             <Heart className="w-4 h-4 text-brand-pink mb-0.5 fill-brand-pink/20 animate-pulse" />
-            <span className="font-display text-3xl text-brand-primary drop-shadow-sm leading-none tracking-tighter">H<span className="text-lg font-serif italic mx-0.5 text-stone-400">&</span>S</span>
+            <span className="font-display text-3xl text-brand-primary drop-shadow-sm leading-none tracking-tighter">A<span className="text-lg font-serif italic mx-0.5 text-stone-400">&</span>S</span>
           </div>
 
           {/* Interactive ambient hover glow */}
           <div className="absolute inset-0 bg-brand-primary/20 rounded-full blur-2xl pointer-events-none group-hover:bg-brand-primary-light/30 transition-colors duration-700 -z-10" />
         </div>
 
-        <h2 className="text-4xl sm:text-5xl font-display text-stone-800 mb-6 tracking-tight drop-shadow-sm">Hasintha & Sithara</h2>
+        <h2 className="text-4xl sm:text-5xl font-display text-stone-800 mb-6 tracking-tight drop-shadow-sm">Ashan & Sathsarani</h2>
         <p className="text-stone-500 font-serif italic text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-16">
           "A journey of a thousand miles begins with a single step, and we're so incredibly happy to take it together."
         </p>
@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
           </div>
           <div className="flex flex-col items-center gap-2">
             <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
-              © 2026 Hasintha & Sithara Wedding
+              © 2026 Ashan & Sathsarani Wedding
             </div>
             <a 
               href="https://wa.me/94707819074" 

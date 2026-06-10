@@ -53,8 +53,8 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
               <h2 className="relative text-brand-primary-muted uppercase tracking-[0.7em] text-[10px] sm:text-xs font-bold mb-4 sm:mb-8 drop-shadow-md">
                 Royal Invitation
               </h2>
-              <h1 className="relative text-6xl sm:text-[9rem] font-display text-white tracking-widest mb-4 drop-shadow-[0_10px_40px_rgba(0,0,0,0.5)]">
-                HASINTHA <span className="text-brand-primary-light italic font-light">&</span> SITHARA
+              <h1 className="relative text-4xl sm:text-[6rem] font-display text-white tracking-widest mb-4 drop-shadow-[0_10px_40px_rgba(0,0,0,0.5)]">
+                ASHAN <span className="text-brand-primary-light italic font-light">&</span> SATHSARANI
               </h1>
               <div className="w-32 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary to-transparent mx-auto mt-10 shadow-[0_0_15px_rgba(70,130,180,0.5)]" />
             </motion.div>
@@ -95,7 +95,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
                 setTimeout(onComplete, 1000);
               }}
             >
-              <source src="/intro_video.mp4" type="video/mp4" />
+              <source src="/give_this_as_live_video_202606101504.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             

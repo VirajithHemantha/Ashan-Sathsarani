@@ -18,11 +18,15 @@ export const Hero: React.FC = () => {
         className="absolute inset-0 z-0 origin-center"
         style={{ y: y1, scale }}
       >
-        <img
-          src="/pre/FB_IMG_1777906609176.jpg.jpeg"
+        <video
           className="w-full h-full object-cover"
-          alt="Wedding Background"
-        />
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/WhatsApp Video 2026-06-10 at 14.48.18.mp4" type="video/mp4" />
+        </video>
         {/* Subtle Dark Overlay to balance visibility and readability */}
         <div className="absolute inset-0 bg-black/60" />
       </motion.div>
@@ -45,13 +49,13 @@ export const Hero: React.FC = () => {
 
         <h1 className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-white text-5xl sm:text-8xl lg:text-[9rem] font-display tracking-tight sm:tracking-normal drop-shadow-[0_15px_35px_rgba(0,0,0,0.6)] mb-8 sm:mb-12">
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-brand-primary-light/40 uppercase tracking-[0.15em] sm:tracking-widest">
-            Hasintha
+            Ashan
           </span>
           <span className="italic font-light text-brand-primary-light text-4xl sm:text-6xl lg:text-7xl drop-shadow-[0_0_20px_rgba(70,130,180,0.4)] leading-none select-none">
             &
           </span>
           <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-brand-primary-light/40 uppercase tracking-[0.15em] sm:tracking-widest">
-            Sithara
+            Sathsarani
           </span>
         </h1>
 
@@ -69,7 +73,7 @@ export const Hero: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 2, duration: 1.5 }}
           >
-            27 . 07 . 2026
+            22 . 07 . 2026
           </motion.p>
 
           <motion.span
@@ -78,7 +82,7 @@ export const Hero: React.FC = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 2.2, duration: 1.5 }}
           >
-            Shamia Hotel • Mirigama
+            Dumindu Hotel • Kakanadura
           </motion.span>
         </div>
       </motion.div>

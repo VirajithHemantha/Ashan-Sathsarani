@@ -14,6 +14,7 @@ import { IntroVideo } from './components/IntroVideo';
 import { Guestbook } from './components/Guestbook';
 import { HeroContent } from './components/HeroContent';
 import { CornerFlowers } from './components/CornerFlowers';
+import { Story } from './components/Story';
 
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
@@ -48,7 +49,7 @@ export default function App() {
       {/* Background Music */}
       <audio
         ref={audioRef}
-        src="/paulyudin-wedding-485932.mp3"
+        src="/sinhanada.net-Liyamuda-Dan-Anagathe-Dinesh-Gamage.mp3"
         loop
       />
 
@@ -77,6 +78,12 @@ export default function App() {
             </section>
 
             <HeroContent />
+
+            <section id="story" className="py-16 sm:py-32 bg-brand-ivory relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-[60%] h-[60%] bg-gradient-radial from-brand-pink/5 to-transparent rounded-full blur-[100px] pointer-events-none" />
+              <div className="absolute bottom-0 left-0 w-[60%] h-[60%] bg-gradient-radial from-brand-primary/5 to-transparent rounded-full blur-[100px] pointer-events-none" />
+              <Story />
+            </section>
 
             <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-gradient-to-br from-[#2E0854] via-[#967BB6] to-[#381E4F]">
               <CornerFlowers position="top-left" opacity={0.4} scale={1.2} />

@@ -42,7 +42,7 @@ export const CeremonyDetails: React.FC = () => {
                   <Calendar className="w-5 h-5 text-brand-primary group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Monday, July 27</h4>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Wednesday, July 22</h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">The Year Two Thousand Twenty Six</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export const CeremonyDetails: React.FC = () => {
                   <Clock className="w-5 h-5 text-brand-gold-deep group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">09:00 AM - 04:00 PM</h4>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">09:00 AM - 03:30 PM</h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Wedding Ceremony</p>
                 </div>
               </div>
@@ -64,8 +64,19 @@ export const CeremonyDetails: React.FC = () => {
                   <Heart className="w-5 h-5 text-brand-pink group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">10:24 AM</h4>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">09:09 AM</h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Poruwa Ceremony</p>
+                </div>
+              </div>
+
+              {/* Registration */}
+              <div className="relative group">
+                <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-brand-primary/30 shadow-lg flex items-center justify-center group-hover:border-brand-primary group-hover:shadow-[0_4px_15px_rgba(70,130,180,0.3)] transition-all duration-500">
+                  <Heart className="w-5 h-5 text-brand-pink group-hover:scale-110 transition-transform duration-500" />
+                </div>
+                <div>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">11:17 AM</h4>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Registration</p>
                 </div>
               </div>
 
@@ -75,8 +86,8 @@ export const CeremonyDetails: React.FC = () => {
                   <MapPin className="w-5 h-5 text-brand-gold-deep group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div>
-                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Shamiya Hotel</h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Mirigama, Sri Lanka</p>
+                  <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-gold-deep transition-colors duration-500">Dumindu Hotel</h4>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.3em] font-bold">Kakanadura, Sri Lanka</p>
                 </div>
               </div>
             </div>
@@ -99,7 +110,7 @@ export const CeremonyDetails: React.FC = () => {
             {/* Main Creative Image Frame */}
             <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-[2rem] sm:rounded-[3rem] overflow-hidden border-[6px] sm:border-[8px] border-white shadow-[0_20px_50px_rgba(70,130,180,0.2)] bg-brand-champagne group">
               <img
-                src="/pre/FB_IMG_1777906616344.jpg.jpeg"
+                src="/pre/WhatsApp Image 2026-06-10 at 14.48.14 (1).jpeg"
                 alt="Wedding Ceremony"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
@@ -124,7 +135,7 @@ export const CeremonyDetails: React.FC = () => {
                 Followed by a celebratory lunch and afternoon festivities in the Grand Ballroom.
               </p>
               <div className="inline-block px-3 sm:px-5 py-1.5 sm:py-2.5 bg-brand-primary/10 rounded-full border border-brand-primary/30 shadow-sm">
-                <span className="text-brand-primary font-sans font-bold tracking-[0.1em] sm:tracking-[0.2em] text-[8px] sm:text-[11px] uppercase block drop-shadow-sm">09:00 AM - 04:00 PM</span>
+                <span className="text-brand-primary font-sans font-bold tracking-[0.1em] sm:tracking-[0.2em] text-[8px] sm:text-[11px] uppercase block drop-shadow-sm">09:00 AM - 03:30 PM</span>
               </div>
             </motion.div>
 
