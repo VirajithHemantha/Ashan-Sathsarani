@@ -12,6 +12,7 @@ import { Location } from './components/Location';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
 import { Guestbook } from './components/Guestbook';
+import { RSVPForm } from './components/RSVPForm';
 import { HeroContent } from './components/HeroContent';
 import { CornerFlowers } from './components/CornerFlowers';
 import { Story } from './components/Story';
@@ -141,6 +142,10 @@ export default function App() {
             </section>
 
 
+
+            <section id="rsvp" className="bg-brand-ivory relative overflow-hidden">
+              <RSVPForm />
+            </section>
 
             <section id="wishes" className="py-16 sm:py-32 bg-brand-champagne/20 relative overflow-hidden">
               <Guestbook />

@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-   const venueAddress = "Shamiya Hotel, Mirigama";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.080516421946!2d80.12435441113038!3d7.241517492737667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae30303c7a0d4b9%3A0x7d9f7a7a7a7a7a7a!2sShamia%20Hotel!5e0!3m2!1sen!2slk!4v1714736345678!5m2!1sen!2slk`;
-  const liveLocationUrl = "https://maps.app.goo.gl/U3Uqk8KAoip1BQ7k9";
+  const venueAddress = "Dumindu Hotel, Kakanadura";
+  const mapUrl = `https://maps.google.com/maps?q=Dumindu+Hotel+Kakanadura&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+  const liveLocationUrl = "https://maps.app.goo.gl/MYJ1L6GGAmHYHsJ66";
 
   return (
     <div className="max-w-[85rem] mx-auto px-6 relative py-12">
@@ -45,8 +45,8 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-primary-light w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-serif text-white mb-1">Shamiya Hotel</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-brand-primary-light/60 leading-relaxed mb-6">Mirigama, Sri Lanka</p>
+                  <p className="text-2xl font-serif text-white mb-1">Dumindu Hotel</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-brand-primary-light/60 leading-relaxed mb-6">Kakanadura, Sri Lanka</p>
 
                   <p className="text-brand-primary-light/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
                     "A serene and elegant setting where we will begin our new chapter together."
